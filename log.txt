@@ -1,0 +1,41 @@
+[Search files for word: hihi
+
+, searchWord: hihi
+, DBWorker method test_connection
+, Connection Failed. Messsage: java.sql.SQLException: No suitable driver found for jdbc:postgresql://localhost:5432/WordDictionary
+, DBWorker method execute
+, Connected
+, SELECT statement: SELECT * FROM "Word" where ("WordText")='hihi'
+, this.resSet not null
+, Connection closed
+, wordID: 6857
+, DBWorker method execute
+, Connected
+, SELECT statement: SELECT * FROM "WordFileMapping" where ("fkWordID")=6857 ORDER BY "Count" DESC
+, this.resSet not null
+, Connection closed
+, fkFileID: 168
+, DBWorker method execute
+, Connected
+,  fileID: 168
+, SELECT statement: SELECT * FROM "File" where ("FileID")=168
+, this.resSet not null
+, Connection closed
+, filePath: D:\Programming\VS code\Projects\Java prj\webdictionary\InputText\hi copy.txt 4
+, fkFileID: 165
+, DBWorker method execute
+, Connected
+,  fileID: 165
+, SELECT statement: SELECT * FROM "File" where ("FileID")=165
+, this.resSet not null
+, Connection closed
+, filePath: D:\Programming\VS code\Projects\Java prj\webdictionary\InputText\Text.txt 2
+, fkFileID: 169
+, DBWorker method execute
+, Connected
+,  fileID: 169
+, SELECT statement: SELECT * FROM "File" where ("FileID")=169
+, this.resSet not null
+, Connection closed
+, filePath: D:\Programming\VS code\Projects\Java prj\webdictionary\InputText\hi.txt 1
+]
